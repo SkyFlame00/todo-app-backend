@@ -10,5 +10,5 @@ MongoClient.connect(url, { useNewUrlParser: true }, (err, db) => {
 
   router(app, dbo);
 
-  app.listen(7000, () => {console.log('Serve on port 7000')});
+  app.listen(7000, () => { console.log('Serve on port 7000'); });
 });
