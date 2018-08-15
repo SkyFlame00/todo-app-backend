@@ -34,8 +34,8 @@ where `express.static('angular')` specifies the folder in which compiled angular
 
 ## Used NodeJS modules
 
-* express
-* mongodb
-* body-parser
+* `express`
+* `mongodb`
+* `body-parser`
 
-For serving both front end and back end was user `pm2` module as well.
+For serving both front end and back end was used `pm2` module as well.
